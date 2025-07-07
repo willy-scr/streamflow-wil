@@ -22,15 +22,15 @@ echo "🎬 Installing FFmpeg dan Git..."
 sudo apt install ffmpeg git -y
 
 echo "📥 Clone repository..."
-git clone https://github.com/bangtutorial/streamflow
-cd streamflow
+git clone https://github.com/willy-scr/streamflow-wil
+cd streamflow-wil
 
 echo "⚙️ Installing dependencies..."
 npm install
 npm run generate-secret
 
 echo "🕐 Setup timezone ke Asia/Jakarta..."
-sudo timedatectl set-timezone Asia/Jakarta
+sudo timedatectl set-timezone Asia/Singapore
 
 echo "🔧 Setup firewall..."
 sudo ufw allow ssh
